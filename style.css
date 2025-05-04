@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 0; padding: 0; }
+.logo-animation { animation: spin 3s linear infinite; }
+.fade-in-text { animation: fadeIn 2s ease-in forwards; opacity: 0; }
+@keyframes spin { from {transform: rotate(0deg);} to {transform: rotate(360deg);} }
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
